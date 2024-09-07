@@ -1,6 +1,7 @@
-Here's your README formatted specifically for GitHub, with proper markdown structure:
+Here’s a slightly more detailed version of the README while keeping it concise:
 
-```markdown
+---
+
 # SkillMatch: AI-Powered Resume & Job Description Matching Tool
 
 SkillMatch is an AI-driven Streamlit app designed to help job seekers evaluate their resumes against job descriptions. Using Google Generative AI, it provides personalized feedback such as match percentage, missing technical skills, project ideas, and even generates cover letters.
@@ -21,19 +22,16 @@ SkillMatch is an AI-driven Streamlit app designed to help job seekers evaluate t
    git clone https://github.com/anirudhviswanath2001/SkillMatch.git
    cd SkillMatch
    ```
-
 2. **Set Up Virtual Environment**:
    ```bash
    python -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
    ```
-
 3. **Configure API Key**: Create a `.env` file with your Google API key:
    ```bash
    GOOGLE_API_KEY=your_google_api_key_here
    ```
-
 4. **Run the Application**:
    ```bash
    streamlit run app.py
@@ -52,6 +50,7 @@ Contributions are welcome! Fork the repo, create a new branch, make changes, and
 For questions or feedback, contact:
 **Anirudh Gokamalla**  
 GitHub: [anirudhviswanath2001](https://github.com/anirudhviswanath2001)
-```
 
-You can copy and paste this directly into your `README.md` file on GitHub, and it will render properly. Let me know if you need any other adjustments!
+---
+
+This version is concise but still provides enough detail about the project.

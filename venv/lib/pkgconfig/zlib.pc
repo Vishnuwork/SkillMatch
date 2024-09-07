@@ -1,0 +1,13 @@
+prefix=/Users/anirudhgokamalla/Desktop/AnirudhProj/Resume ATS/venv
+exec_prefix=/Users/anirudhgokamalla/Desktop/AnirudhProj/Resume ATS/venv
+libdir=/Users/anirudhgokamalla/Desktop/AnirudhProj/Resume ATS/venv/lib
+sharedlibdir=/Users/anirudhgokamalla/Desktop/AnirudhProj/Resume ATS/venv/lib
+includedir=/Users/anirudhgokamalla/Desktop/AnirudhProj/Resume ATS/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

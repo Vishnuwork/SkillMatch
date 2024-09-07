@@ -1,4 +1,4 @@
-Here’s a slightly more detailed version of the README while keeping it concise:
+
 
 ---
 

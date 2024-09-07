@@ -10,7 +10,7 @@ from PIL import Image
 import pdf2image
 import base64
 
-
+poppler_path = '/usr/bin/'
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_docx(text):

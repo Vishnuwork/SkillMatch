@@ -13,12 +13,6 @@ import base64
 poppler_path = '/usr/bin/'
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-if api_key:
-    genai.configure(api_key=api_key)
-else:
-    st.error("GOOGLE_API_KEY is not set. Please configure the API key in the environment variables.")
-    st.stop
-
 
 def get_docx(text):
     document = Document()
